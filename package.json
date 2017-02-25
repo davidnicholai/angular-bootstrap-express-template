@@ -1,0 +1,30 @@
+{
+  "name": "angular-bootstrap-express-template",
+  "version": "1.0.0",
+  "description": "An AngularJS template for creating a web application running on Express and Node.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidnicholai/angular-bootstrap-express-template.git"
+  },
+  "keywords": [
+    "angularjs",
+    "express",
+    "nodejs",
+    "bootstrap"
+  ],
+  "author": "David Lim <nicholai.david@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidnicholai/angular-bootstrap-express-template/issues"
+  },
+  "homepage": "https://github.com/davidnicholai/angular-bootstrap-express-template#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
