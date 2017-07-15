@@ -1,7 +1,9 @@
 (function() {
+    'use strict';
+
     angular
-        .module('app.services', [])
-        .service('UserService', UserService)
+        .module('app.services')
+        .service('UserService', UserService);
 
     UserService.$inject = [];
 

@@ -2,23 +2,8 @@
     'use strict';
 
     angular
-        .module('app', [
-            'ui.router',
-            'app.services',
-            'app.header',
-            'app.main',
-            'app.home',
-            'app.about'])
-        .config(configure)
+        .module('app')
         .config(routes);
-
-    configure.$inject = ['$httpProvider'];
-
-    function configure($httpProvider) {
-        $httpProvider.defaults.headers.common['Accept'] = 'application/json';
-        $httpProvider.defaults.headers.common['Content-Type'] = 'application/json';
-        console.debug('configure loaded.');
-    }
 
     routes.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
 
