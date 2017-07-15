@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="angularBootstrapExpressTemplate">
+<html ng-app="app">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,9 +18,14 @@
     <script src="./lib/angular-ui-router/release/angular-ui-router.min.js"></script>
 
     <!-- This js file should be the last script you load unless you know what you are doing -->
-    <script src="core.js"></script>
+    <script src="app.module.js"></script>
+    <script src="./header/header.controller.js"></script>
+    <script src="./main/main.controller.js"></script>
+    <script src="./home/home.controller.js"></script>
+    <script src="./about/about.controller.js"></script>
+    <script src="./services/user.service.js"></script>
 </head>
-<body ng-controller="MainController">
+<body>
     <nav class="navbar navbar-inverse" ng-controller="HeaderController as vm">
         <div class="container">
             <div class="navbar-header">
